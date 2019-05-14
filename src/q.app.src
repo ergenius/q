@@ -1,0 +1,13 @@
+{application, qns, [
+    {id, "qns"},
+    {vsn, "0.1.0"},
+    {description, "Q NETWORK SERVER"},
+    {modules, []},
+    {registered, []},
+    {applications, [kernel, stdlib, sasl]},
+    {mod, {qapp, []}},
+    {env, []},
+    {maintainers, ["Madalin Grigore-Enescu <madalingithub@ergenius.com>"]},
+    {licenses, ["MIT"]},
+    {links, [{"Github", "https://github.com/qnet/qns"}]}
+]}.
